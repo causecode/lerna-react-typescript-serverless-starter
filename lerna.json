@@ -1,0 +1,18 @@
+{
+  "packages": [
+    "packages/*"
+  ],
+  "command": {
+    "publish": {
+      "conventionalCommits": true,
+      "registry": "http://localhost:4873",
+      "access": "public",
+      "npmClient": "yarn",
+      "allowBranch": [
+        "master",
+        "feature/*"
+      ]
+    }
+  },
+  "version": "independent"
+}
